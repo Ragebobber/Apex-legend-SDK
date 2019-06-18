@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\WindowsHeadrs">
+      <UniqueIdentifier>{9d7a75dd-fce6-4fde-abf5-50730b68641b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK">
+      <UniqueIdentifier>{48da578b-cc2e-4ee5-85f6-673cda96acf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SDK">
+      <UniqueIdentifier>{8dac60c2-35ce-4ea9-ac71-9b4b92bdc779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK\Interfaces">
+      <UniqueIdentifier>{68c2be6e-6d16-4211-97a2-cbd8c02ae771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Cheat">
+      <UniqueIdentifier>{b42ac7b7-d3e3-42f3-9fff-12a5349af3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Cheat">
+      <UniqueIdentifier>{c7cce923-61d8-400c-bc39-e5476fe69154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Исходные файлы\Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Файлы заголовков\WindowsHeadrs</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>Файлы заголовков\WindowsHeadrs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Файлы заголовков\WindowsHeadrs</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Файлы заголовков\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Файлы заголовков\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Файлы заголовков\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Файлы заголовков\WindowsHeadrs</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugOverlay.h">
+      <Filter>Файлы заголовков\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IVpanel.h">
+      <Filter>Файлы заголовков\SDK\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
